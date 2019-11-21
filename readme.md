@@ -6,6 +6,9 @@ To compile the .min.js file, run: `uglifyjs --comments '/license:/' < jquery.zoo
 
 ## Changelog:
 
+##### v1.7.22 - 2019/11/20
+* megatux: Add same mouseout behavior than 'mouseover' version for 'click' version.
+
 ##### v1.7.21 - 2018/4/26
 * Added empty alt attribute. Resolves #134
 
