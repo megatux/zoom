@@ -174,7 +174,11 @@
 								return false;
 							}
 						}
-					);
+					).on('mouseleave.zoom', function() {
+						stop();
+						clicked = false;
+						$(document).off(mousemove, zoom.move);
+					});
 				} else if (settings.on === 'toggle') {
 					$source.on('click.zoom',
 						function (e) {
